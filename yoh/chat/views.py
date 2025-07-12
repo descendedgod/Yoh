@@ -28,7 +28,7 @@ class AddFriendForm(forms.Form):
     friend_id = forms.IntegerField()
 
 def landing_view(request):
-    return render(request, 'chat/landing.html')
+    return render(request, 'landing.html')
 
 def register_view(request):
     if request.method == 'POST':
